@@ -89,6 +89,13 @@ const entries: Array<PortfolioEntry> = [
   },
   {
     icon: 'https://avatars.githubusercontent.com/u/61908580?v=4',
+    title: 'handyCafe Patcher',
+    description: 'Runtime patcher for the cafe client handyCafe',
+    repourl: 'https://github.com/u16rogue/pk_handycafe',
+    tags: [ 'cpp', 're', 'poc', 'modding', 'software', 'utility' ],
+  },
+  {
+    icon: 'https://avatars.githubusercontent.com/u/61908580?v=4',
     title: 'bad-echo-driver PoC',
     description: 'Protect, Unprotect, Filter handles, Create handle, and Read memory by abusing a signed Kernel driver.',
     repourl: 'https://github.com/u16rogue/bad-echo-driver',
