@@ -19,9 +19,9 @@
 
 > This is a work in progress (wip)!
 
-This is a quick rundown of using Podman Containers as a sandbox. A lot of guides online are (obviously) geared towards using containers in the context of deployment. This instead is geared towards using Podman Containers as a small sandbox to do anything you want inside a container. From creating, running, obtaining a shell, stopping, resuming, cleaning.
+This is a quick rundown of using Podman Containers as a sandbox. A lot of guides online are (obviously) geared towards using containers in the context of deployment. This instead is geared towards using Podman Containers as a small sandbox.
 <br>
-Why? Containers are a great substitute to a full virtual machine when you need an isolated system whether its for development, testing, or trying things out without affecting your host system.
+Why? Containers are a great substitute to a full virtual machine when you need an isolated system.
 
 ## Obtaining a base OS Image
 You can choose anything you want. Check [Docker Hub](https://hub.docker.com/) for your preffered image. We'll be using `alpine` as its very small.
@@ -34,7 +34,7 @@ To see what images you have installed. These images is where your containers wil
     - `podman images -a`
 
 ## Creating a disposable sandbox
-If you need to do something real quick and dont want to keep the container right after you can set it up to automatically dispose itself on exit.
+If you need to do something and do not want to keep the container right after you can set it up to automatically dispose itself on exit.
 
     - `podman run --rm -it --name sandbox alpine /bin/sh`
         - `--rm` - Removes the container on exit
@@ -44,7 +44,7 @@ If you need to do something real quick and dont want to keep the container right
         - `/bin/sh` - The command the container will execute. This gives us a shell inside the container.
 
 ## Creating a container for a persistent sandbox
-If you need a sandbox that you'll continue using more akin to an actual VM.
+If you need a sandbox that you'll continue using after, more akin to a VM use case.
 
     - `podman create --name sandbox -it docker.io/library/alpine:3.20.3 /bin/sh`
         - `--name sandbox` - Give it a name (optional) but makes it easier to reference. This need to be unique.
