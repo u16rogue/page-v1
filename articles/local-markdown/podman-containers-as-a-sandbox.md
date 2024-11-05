@@ -4,7 +4,7 @@
   "title": "Podman Containers as a Sandbox",
   "description": "A quick rundown of using podman containers as a sandbox.",
   "thumbnail": "https://avatars.githubusercontent.com/u/61908580?v=4",
-  "tags": [ "WIP", "containers", "podman", "linux", "guide", "development", "shell" ],
+  "tags": [ "WIP", "guide", "containers", "podman", "linux", "guide", "development", "shell" ],
   "stamps": {
     "created": "Sat Oct 26 2024 06:15:23 GMT+0800 (Taipei Standard Time)",
     "added":   "Sat Oct 26 2024 06:15:23 GMT+0800 (Taipei Standard Time)"

@@ -4,7 +4,7 @@
   "title": "OBS Recording a Moonlight Stream",
   "description": "Recording Moonlight Stream with OBS + obs-vkcapture under flatpak and wayland!",
   "thumbnail": "https://avatars.githubusercontent.com/u/61908580?v=4",
-  "tags": [ "obs", "flatpak", "moonlight-stream", "obs-vkcapture", "linux", "wayland", "guide" ],
+  "tags": [ "guide", "obs", "flatpak", "moonlight-stream", "obs-vkcapture", "linux", "wayland" ],
   "stamps": {
     "created": "Tue Oct 15 2024 01:58:08 GMT+0800 (Taipei Standard Time)",
     "added":   "Tue Oct 15 2024 01:58:08 GMT+0800 (Taipei Standard Time)"

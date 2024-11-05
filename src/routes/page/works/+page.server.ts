@@ -136,6 +136,13 @@ const entries: Array<PortfolioEntry> = [
     repourl: 'https://github.com/u16rogue/obs-win-cap-patcher',
     tags: [ 'python', 'windows', 'games', 'modding', 'utility', ],
   },
+  {
+    icon: 'https://avatars.githubusercontent.com/u/61908580?v=4',
+    title: 'rut.cmake',
+    description: 'A CMake utility library',
+    repourl: 'https://github.com/u16rogue/rut.cmake',
+    tags: [ 'cmake', 'library', 'utility', ],
+  },
 ];
 
 export async function load() {
